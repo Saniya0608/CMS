@@ -1,0 +1,25 @@
+/* General Styles (Same as before) */
+
+/* Reports Section */
+.reports {
+    margin: 20px 0;
+}
+
+.report-card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.report-card h3 {
+    margin-bottom: 10px;
+}
+
+.report-card p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+    color: #007bff;
+}

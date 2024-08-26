@@ -1,0 +1,39 @@
+/* General Styles (Same as before) */
+
+/* Add Contract Form */
+.add-contract-form {
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-contract-form h2 {
+    margin-bottom: 20px;
+}
+
+.add-contract-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.add-contract-form input, .add-contract-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-contract-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-contract-form button:hover {
+    background-color: #218838;
+}

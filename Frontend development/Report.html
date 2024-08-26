@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports - CMS</title>
+    <link rel="stylesheet" href="CSS/Report.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">CMS Reports</div>
+            <div class="user-profile">
+                <span>Welcome, User</span>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="Dashboard.html">Dashboard</a></li>
+                <li><a href="Contracts.html">Contracts</a></li>
+                <li><a href="Add_Contract.html">Add Contract</a></li>
+                <li><a href="Report.html">Reports</a></li>
+                <li><a href="Setting.html">Settings</a></li>
+               
+            </ul>
+        </nav>
+
+        <!-- Reports Section -->
+        <section class="reports">
+            <h2>Contract Reports</h2>
+
+            <!-- Total Contracts -->
+            <div class="report-card">
+                <h3>Total Contracts</h3>
+                <p id="totalContracts">0</p>
+            </div>
+
+            <!-- Active Contracts -->
+            <div class="report-card">
+                <h3>Active Contracts</h3>
+                <p id="activeContracts">0</p>
+            </div>
+
+            <!-- Expired Contracts -->
+            <div class="report-card">
+                <h3>Expired Contracts</h3>
+                <p id="expiredContracts">0</p>
+            </div>
+
+            <!-- Contracts Near Expiration -->
+            <div class="report-card">
+                <h3>Contracts Near Expiration</h3>
+                <p id="nearExpirationContracts">0</p>
+            </div>
+
+            <!-- Total Contract Value -->
+            <div class="report-card">
+                <h3>Total Contract Value ($)</h3>
+                <p id="totalContractValue">0</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Contract Management System. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="JS/script5.js"></script>
+</body>
+</html>

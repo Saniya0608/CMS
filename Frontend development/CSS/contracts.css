@@ -1,0 +1,29 @@
+/* General Styles (Same as before) */
+
+/* Contracts Table */
+.contracts-table {
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contracts-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.contracts-table th, .contracts-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contracts-table th {
+    background-color: #f4f4f4;
+}
+
+.contracts-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+

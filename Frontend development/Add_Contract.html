@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Contract - CMS</title>
+    <link rel="stylesheet" href="CSS/Add_contract.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">CMS Add Contract</div>
+            <div class="user-profile">
+                <span>Welcome, User</span>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="Dashboard.html">Dashboard</a></li>
+                <li><a href="Contracts.html">Contracts</a></li>
+                <li><a href="Add_Contract.html">Add Contract</a></li>
+                <li><a href="Report.html">Reports</a></li>
+                <li><a href="Setting.html">Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Add Contract Form -->
+        <section class="add-contract-form">
+            <h2>Add New Contract</h2>
+            <form id="contractForm">
+                <label for="contractName">Contract Name:</label>
+                <input type="text" id="contractName" name="contractName" required>
+
+                <label for="contractStatus">Status:</label>
+                <select id="contractStatus" name="contractStatus" required>
+                    <option value="Active">Active</option>
+                    <option value="Expired">Expired</option>
+                    <option value="Near Expiration">Near Expiration</option>
+                </select>
+
+                <label for="contractType">Contract Type:</label>
+                <input type="text" id="contractType" name="contractType" required>
+
+                <label for="contractValue">Value ($):</label>
+                <input type="number" id="contractValue" name="contractValue" required>
+
+                <label for="dateAdded">Date Added:</label>
+                <input type="date" id="dateAdded" name="dateAdded" required>
+
+                <label for="expirationDate">Expiration Date:</label>
+                <input type="date" id="expirationDate" name="expirationDate" required>
+
+                <button type="submit">Add Contract</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Contract Management System. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="JS/script3.js"></script>
+</body>
+</html>
